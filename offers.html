@@ -1,0 +1,113 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="offers.html">OFFERS</a></li>
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>Offers</h1>
+      </section>
+
+<!------- Course ------->
+      
+      <section class="course">
+          <h1>Pelayanan Kami</h1>
+          <p>Bekerja dengan sepenuh hati melayani kebutuhan Anda.</p>
+          
+          <div class="row">
+              <div class="course-col">
+                  <h3>Perencanaan Penuh</h3>
+                  <p>Kami sepenuhnya membantu Anda sebelum, selama, dan setelah hari pernikahan Anda.</p>
+              </div>
+               <div class="course-col">
+                  <h3>Koordinator pernikahan</h3>
+                  <p>Bersikap profesional dalam berkoordinasi dengan vendor dan dalam menjalankan jadwal acara.</p>
+              </div>
+               <div class="course-col">
+                  <h3>Dekorasi Pernikahan</h3>
+                  <p>Kami bekerja dan memberikan saran berdasarkan keinginan anda.</p>
+              </div>
+               <div class="course-col">
+                  <h3>Penyedia<br>Bakat</h3>
+                  <p>Memerlukan MC bilingual? atau ingin pertunjukan tari api? Ya, kami bisa menyediakan bakat itu.</p>
+              </div>
+               <div class="course-col">
+                  <h3>Penyedia Dokumentasi</h3>
+                  <p>Fotografer dan videografer prefesional tersedia untuk mengabadikan momen indah Anda.</p>
+              </div>
+          </div>
+      </section>
+   
+<!------- packages ------->
+      
+      <section class="packages">
+          <h1>Our Packages</h1>
+          <p>Berikut beberapa paket yang kami tawarkan:</p>
+          
+          <div class="row">
+              <div class="packages-col">
+                  <img src="images/7.jpg">
+                  <h3>Paket Akhir Tahun</h3>
+                  <p>Wedding di bali mahal? Bingung pilih wo yang bagus dengan harga reasonable? Wait gaes mungkin kalian belum ketemu promo ini. Nah walaupun promo, tetap akan kami kerjakan secara profesional dan sepenuh hati. So no worry.</p></div>
+              <div class="packages-col">
+                  <img src="images/6.jpg">
+                  <h3>Paket Prewedding di Bali</h3>
+                  <p>Tidak bisa dipungkiri lagi kalau Bali mempunyai banyak sekali spot foto yang indah dan menarik, sangat cocok sekali untuk kamu yang ingin melakukan foto pre wedding. Ingin prewedding di tempat terindah di Bali? Hubungi Bali Top Wedding segera!</p>
+              </div>
+              <div class="packages-col">
+                  <img src="images/8.jpg">
+                  <h3>Bali Luxury Villa Wedding</h3>
+                  <p>Paket Luxury Villa Wedding cocok untuk anda yang berencana melangsungkan acara pernikahan di Bali dengan suasana privat, tentunya juga memberikan rasa nyaman kepada tamu undangan anda. </p>
+              </div>
+          </div>
+      </section>
+      
+<!------- Footer ------->
+      
+      <section class="footer">
+          <h4>About Us</h4>
+          <p>Bali Top Wedding adalah badan penyelenggara pernikahan profesional berbasis di Bali.
+<br>Dibawah badan hukum CV. Vinayaka Sukses Makmur (Nomor:1272/22-09/PK/XI/2018)</p>
+          <div class="icons">
+              <a href="https://www.youtube.com/@balitopwedding3855"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.instagram.com/balitopwedding"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/newbalitopwedding/"><i class="fa fa-facebook"></i></a>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by kelompok 6 (10, 21, 30)</p>
+      </section>
+      
+<!------- JavaScript for Toggle Menu ------->
+      
+      <script>
+      
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right= "0";
+          }
+          function hideMenu(){
+              navLinks.style.right= "-200px";
+          }
+          
+      </script>
+      
+  </body>
+</html>

@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+      <section class="sub-header">
+          <nav>
+              <a href="index.html"><img src="images/logo.png"></a>
+              <div class="nav-links" id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="about.html">ABOUT</a></li>
+                      <li><a href="offers.html">OFFERS</a></li>
+                      <li><a href="blog.html">BLOG</a></li>
+                      <li><a href="contact.html">CONTACT</a></li>
+                  </ul>
+              </div>
+              <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+          <h1>About Us</h1>
+      </section>
+
+<!------- about us content ------->
+      
+
+      <section class="about-us">
+          <div class="row">
+              <div class="about-col">
+                  <h1>Tentang Kami</h1>
+                  <p>Bali Top Wedding adalah badan penyelenggara pernikahan profesional berbasis di Bali. Di bawah badan hukum <b>CV. Vinayaka Sukses Makmur</b> (Nomor: 1272 / 22-09 / PK / XI / 2018), kami telah mulai membuka pintu kami secara legal pada tahun 2014.</p>
+<p>Bergabung dengan organisasi profesional di Bali untuk pengusaha industri pernikahan yaitu (<b>Bali Wedding Association</b>) pada tahun 2016, dengan kemampuan kami untuk melakukan pernikahan internasional atau nasional telah diakui oleh sebagian besar tempat pernikahan dan vendor pernikahan di Bali.</p>
+<p><b>Bali Top Wedding</b> Planner di dukung dengan anggota tim yang kreatif, bersemangat, dan berpengalaman. Tim kami dengan senang hati selalu membantu anda untuk menghilangkan stres dalam memilih tema pernikahan, tempat terbaik, atau lebih jauh untuk akhirnya memastikan acara yang akan selalu diingat untuk satu moment terindah anda</p>
+                  <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+              </div>
+              <div class="about-col">
+                  <img src="images/logo.png"> 
+              </div>
+          </div>
+      </section>
+
+      
+<!------- Footer ------->
+      
+      <section class="footer">
+          <h4>About Us</h4>
+          <p>Bali Top Wedding adalah badan penyelenggara pernikahan profesional berbasis di Bali.
+<br>Dibawah badan hukum CV. Vinayaka Sukses Makmur (Nomor:1272/22-09/PK/XI/2018)</p>
+          <div class="icons">
+              <a href="https://www.youtube.com/@balitopwedding3855"><i class="fa fa-youtube"></i></a>
+              <a href="https://www.instagram.com/balitopwedding"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.facebook.com/newbalitopwedding/"><i class="fa fa-facebook"></i></a>
+          </div>
+          <p>Made with <i class="fa fa-heart-o"></i> by kelompok 6 (10, 21, 30)</p>
+      </section>
+      
+<!------- JavaScript for Toggle Menu ------->
+      
+      <script>
+      
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+              navLinks.style.right= "0";
+          }
+          function hideMenu(){
+              navLinks.style.right= "-200px";
+          }
+          
+      </script>
+      
+  </body>
+</html>
